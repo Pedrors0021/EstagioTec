@@ -1,0 +1,89 @@
+/* Reset de margem e preenchimento padrão para o corpo e os elementos */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos gerais para a página */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    background-color: #061948;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color:white;
+}
+
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+}
+
+.navbar .logo img {
+    width: 150px;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar nav ul li {
+    margin-right: 20px;
+}
+
+.navbar nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar nav ul li.active a {
+    color: #061948;
+}
+
+.content {
+    padding: 20px;
+}
+
+.footer {
+    background-color: #061948;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilos específicos para o conteúdo da página (adicione mais conforme necessário) */
+.section {
+    margin-bottom: 40px;
+}
+
+.section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.example {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}

@@ -1,0 +1,143 @@
+/* Reset padrão para aprimorar a consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+}
+
+.main-page-wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.theme-menu-wrapper {
+    background-color: #d4dae0;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.menu-wrapper ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.menu-wrapper ul li {
+    margin-bottom: 10px;
+}
+
+.menu-wrapper ul li a {
+    color: #2c3e50;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-weight: bold;
+}
+
+.menu-wrapper ul li a:hover {
+    color: #e74c3c;
+}
+
+.texto2 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.texto2 h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+   
+    
+}
+
+.texto2 p {
+    margin-bottom: 15px;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .menu-wrapper ul li {
+        margin-bottom: 8px;
+    }
+}
+
+
+/* Estilização para a troca de foto de perfil */
+.user-profile-section {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.user-profile-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+
+.user-circle {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.user-circle img {
+    width: 100%; /* Ajustado para 100% */
+    height: auto; /* Mudado para auto */
+    object-fit: cover;
+}
+
+.edit-photo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 8px 0;
+    display: none;
+}
+
+.user-circle:hover .edit-photo {
+    display: block;
+}
+
+.edit-photo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Adicione outros estilos conforme necessário */
+
+#profile-pic {
+    float: left;
+    margin-right: 20px;
+    /* If you want to crop the image to a certain size, use something like this */
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}
+.user-photo {
+    position: relative;
+}
